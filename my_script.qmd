@@ -32,3 +32,12 @@ Present a figure.
 ```{r}
 plot(df$test1, df$test2)
 ```
+
+Add some more text here.
+
+And some R code.
+
+```{r}
+1+2
+```
+
