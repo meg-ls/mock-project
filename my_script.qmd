@@ -41,3 +41,9 @@ And some R code.
 1+2
 ```
 
+Add some more text down here.
+
+```{r}
+df$newcol <- df$test1 - 10
+head(df)
+```
