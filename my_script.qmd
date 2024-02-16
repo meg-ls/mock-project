@@ -1,0 +1,34 @@
+---
+title: "Test123"
+author: "Megan Steele"
+format: html
+editor: visual
+---
+
+# Heading 1
+
+## Subheading
+
+Import the data:
+
+```{r}
+df <- read.csv("demo_data.csv")
+
+```
+
+Print a table.
+
+```{r}
+library(tidyverse)
+library(flextable)
+df %>%
+  flextable() %>%
+  theme_zebra()
+  
+```
+
+Present a figure.
+
+```{r}
+plot(df$test1, df$test2)
+```
